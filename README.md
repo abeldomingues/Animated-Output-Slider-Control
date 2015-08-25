@@ -5,7 +5,7 @@ A related post, describing how to build the control - along with some discussion
 
 UIControls typically update their values (and foward actions to their targets) once per discreet touch - even if that touch indicates a jump in values and the visuals themselves animate between those values:
 
-<div style="text-align:center; padding-left:10px;"><img src="http://www.mojolama.com/wp-content/uploads/2015/08/MOJOSlider-PrintValues-BEFORE.gif" alt="MOJOSlider-Explicit-Animation" width="380" height="620" class="aligncenter size-full wp-image-3639" /></div>
+<div style="text-align:center; margin-left:20px;"><img src="http://www.mojolama.com/wp-content/uploads/2015/08/MOJOSlider-PrintValues-BEFORE.gif" alt="MOJOSlider-Explicit-Animation" width="380" height="620" class="aligncenter size-full wp-image-3639" /></div>
 
 But Core Animation has the ability to animate *non-visual*, as well as visual, properties - making it possible for custom controls to interpolate between outgoing values:
 
