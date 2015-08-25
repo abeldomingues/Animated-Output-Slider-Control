@@ -9,6 +9,6 @@ UIControls typically update their values (and foward actions to their targets) o
 
 But Core Animation has the ability to animate *non-visual*, as well as visual, properties - making it possible for custom controls to interpolate between outgoing values:
 
-http://www.mojolama.com/wp-content/uploads/2015/08/MOJOSlider-PrintValues-AFTER.gif" />
+<img src="http://www.mojolama.com/wp-content/uploads/2015/08/MOJOSlider-PrintValues-AFTER.gif" />
 
 This can be especially useful in cases where there is a desire to tightly bind the output of a target object to the UI element controlling it. Audio applications, for example, could benefit from this technique.
